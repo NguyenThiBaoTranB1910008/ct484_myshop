@@ -63,10 +63,10 @@ class CartScreen extends StatelessWidget {
               onPressed: () {
                 print('An order has been added');
               },
-              child: const Text('ORDER NOW'),
               style: TextButton.styleFrom(
                 textStyle: TextStyle(color: Theme.of(context).primaryColor),
               ),
+              child: const Text('ORDER NOW'),
             )
           ],
         ),
